@@ -1,0 +1,44 @@
+#disconnectDiv {
+    position: absolute;
+    right: 5px;
+}
+
+#update {
+    margin: 4px;
+}
+
+#dates * {
+    padding-inline: 5px;
+}
+
+#test {
+    display: block;
+    color: red;
+}
+
+#table {
+    display: grid;
+    padding-inline: 4px;
+}
+
+#table :nth-child(4n+1).item {
+    grid-column: 1;
+}
+
+#table :nth-child(4n+2).item {
+    grid-column: 2;
+}
+
+#table :nth-child(4n+3).item {
+    grid-column: 3;
+}
+
+#table :nth-child(4n).item {
+    grid-column: 4;
+}
+
+#table * {
+    display: inline;
+    padding-inline: 4px;
+    border-style: groove;
+}

@@ -1,0 +1,9 @@
+body {
+    margin: auto;
+    width: fit-content;
+}
+
+form * {
+    display: block;
+    margin: 5px;
+}

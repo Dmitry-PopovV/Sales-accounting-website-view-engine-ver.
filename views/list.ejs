@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>list</title>
+    <link rel="stylesheet" href="list.css">
+    <script defer src="list.js"></script>
+</head>
+
+<body>
+    <div id="disconnectDiv">
+        <%= login %>
+        <button id="disconnect">Выйти из акаунта</button>
+    </div>
+    <button id="goToMain">Продажи</button>
+    <h1>Список проданного товара.</h1>
+    <div id="dates"><label>От:</label><input id="dateFrom" type="date"><label>До:</label><input id="dateTo" type="date">
+    </div>
+    <div id="catalogSelect"></div>
+    <label id="test"></label>
+    <button id="update">Обновить список</button>
+    <div id="tableRoot">
+        <div id="table">
+            <div class='item'>Дата</div>
+            <div class='item'>Тип</div>
+            <div class='item'>Цена</div>
+            <div class='item'>Количество</div>
+        </div>
+    </div>
+
+</body>

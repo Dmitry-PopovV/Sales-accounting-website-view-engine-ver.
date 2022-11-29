@@ -1,0 +1,32 @@
+#disconnectDiv {
+    position: absolute;
+    right: 5px;
+}
+
+#table {
+    display: flex;
+    flex-direction: column;
+    width: 333px;
+}
+
+#table * {
+    display: flex;
+    margin-bottom: 1px;
+}
+
+#table * * {
+    width: 111px;
+}
+
+#table * * input{
+    width: 70px;
+}
+
+.dateDiv {
+    padding: 2px;
+}
+
+#test {
+    display: block;
+    color: red;
+}

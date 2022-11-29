@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>main</title>
+    <link rel="stylesheet" href="main.css">
+    <script defer type="module" src="main.js"></script>
+    <script type="module" src="RowContext.js"></script>
+</head>
+
+<body>
+    <div id="disconnectDiv">
+        <%= login %>
+        <button id="disconnect">Выйти из акаунта</button>
+    </div>
+    <button id="goToList">К списку</button>
+    <h1>Продажа товара.</h1>
+    <div class="dateDiv"><label>Дата отгрузки:</label><input id="date" type="date"></div>
+    <div id="table">
+        <div class="zeroRow">
+            <div>Наименование</div>
+            <div>Цена(руб.)</div>
+            <div>Количество</div>
+        </div>
+
+    </div>
+    <button id="addButton">Добавить</button><button id="delButton">Удалить</button>
+    <div class="sum"><label>Итого:</label><label id="sumNum"></label></div>
+    <button id="sell">Отправить</button>
+    <label id="test"></label>
+
+</body>
